@@ -1,0 +1,60 @@
+html,
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.disable-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.block-base {
+	width: 200px;
+	/* height: 100px; */
+	border: #000 dashed 1px;
+	background-color: #fff;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 98px;
+	/* line-height: 180px; */
+}
+
+.block-press {
+	border-color: #ee92af;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #fff5f7;
+	box-shadow: 0 4px 12px rgba(238, 146, 175, 0.3);
+}
+
+.touch-zone {
+	width: 100%;
+	height: 20px;
+	background-color: #ff0;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.roll-top,
+.roll-bottom {
+	position: fixed;
+	width: 100%;
+	/* height: 100px; */
+	background-color: rgba(0, 0, 0, 0);
+	z-index: 100;
+	display: none;
+}
+
+.roll-top {
+	top: 0;
+}
+
+.roll-bottom {
+	bottom: 0;
+}
