@@ -2,6 +2,10 @@
 
 可拖曳排序的區塊列表 POC (Proof of Concept)
 
+## 線上演示
+
+**👉 [立即體驗](https://heavenyuan.github.io/poc-sortable-blocks/)**
+
 ## 功能特色
 
 - **直覺拖曳** - 點擊區塊頂部黃色區域進行拖曳
